@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "vini",
-      "budget": "600",
+      "budget": "50000",
       "category": {
         "id": "1",
         "name": "Infra"
@@ -12,24 +12,30 @@
       "id": 1
     },
     {
-      "name": "meu projeto",
-      "budget": "300",
+      "name": "tst",
+      "budget": "400",
       "category": {
-        "id": "3",
-        "name": "Desing"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
       "id": 2
     },
     {
+      "name": "Ola mundo!",
+      "budget": "600",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
       "cost": 0,
       "services": [],
       "id": 3
     },
     {
-      "name": "test 1",
-      "budget": "200",
+      "name": "teste20",
+      "budget": "500",
       "category": {
         "id": "3",
         "name": "Desing"
@@ -37,17 +43,6 @@
       "cost": 0,
       "services": [],
       "id": 4
-    },
-    {
-      "name": "teste",
-      "budget": "30",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
     }
   ],
   "categories": [

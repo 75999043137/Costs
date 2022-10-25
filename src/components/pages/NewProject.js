@@ -9,7 +9,9 @@ function NewProject() {
     const history = useHistory();
 
     function createPost(project) {
-        
+        if (project.name === '' || project.budget === '' || !project.category ) {
+            alert('Erro!')
+        }else {
         //initialize cost and services
         project.cost = 0
         project.services = []
@@ -28,7 +30,7 @@ function NewProject() {
             history.push('/projects', { message: 'Projeto criado com sucesso!' });
         })
         .catch((err) => console.log(err))
-    }
+    }}
 
     return (
         <div className={styles.newproject_conteiner}>
