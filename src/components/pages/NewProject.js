@@ -10,7 +10,7 @@ function NewProject() {
 
     function createPost(project) {
         if (project.name === '' || project.budget === '' || !project.category ) {
-            alert('Erro!')
+            alert('É necessário preencher todos os campos!')
         }else {
         //initialize cost and services
         project.cost = 0
