@@ -19,7 +19,13 @@
         "name": "Desing"
       },
       "cost": 0,
-      "services": [],
+      "services": [
+        {
+          "name": "teste",
+          "cost": "600",
+          "description": "sei la"
+        }
+      ],
       "id": 3
     },
     {
@@ -29,8 +35,27 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 300,
+      "services": [
+        {
+          "name": "vini",
+          "cost": "100",
+          "description": "Testanto",
+          "id": "31bf9111-cd2a-40d9-9d96-eb2d3b4e8c91"
+        },
+        {
+          "name": "test",
+          "cost": "100",
+          "description": "Testanto",
+          "id": "e059734c-f44e-4e04-ba1d-85e44ec2013a"
+        },
+        {
+          "name": "test2",
+          "cost": "100",
+          "description": "Testanto",
+          "id": "a068d5a7-8606-4f85-a1f2-9c8845bbe108"
+        }
+      ],
       "id": 5
     },
     {
