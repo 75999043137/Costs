@@ -1,5 +1,10 @@
 function Company() {
-    return <h1>Company</h1>
+    return (
+        <div>
+            <h1>Contato</h1>
+            <p><span>Instagram:</span>@12132213</p>
+        </div>
+    )
 }
 
 export default Company
